@@ -1,0 +1,5 @@
+mvn clean						- To clean the last run results
+mvn compile						- Check all the files and compile them and look for any errors
+mvn test						- Runs all the tests from src/test/java/.../tests folder
+mvn test -P<profile>			- Runs the specific testng.xml file configured in profiles of pom.xml fle
+mvn test -D<param>=<value>		- Runs the tests with explicit params from command prompt (code should have the capability to read)
